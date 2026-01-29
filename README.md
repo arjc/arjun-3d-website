@@ -1,31 +1,28 @@
-### 1.Vite:-
+# SETUP
 
-`npm create vite@latest`
+> if you are planing to work on this; make sure to install the following dependancies...
 
-### 2.Tailwind for vite:-
+### 1.Vite: `npm create vite@latest`
 
-Step 1: `npm install tailwindcss @tailwindcss/vite`
+### 2.Tailwind for Vite: `npm install tailwindcss @tailwindcss/vite`
 
-Step 2:
-[vite.config.js]
+Edit **vite.config.js**:
 
 ```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+
 import tailwindcss from '@tailwindcss/vite' <== Add this
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
+
     tailwindcss() <============================ And this
+  
   ],
 })
 
 ```
 
-Step 3:
-index.css
-`@import "tailwindcss";`
-
-# arjun-3d-website
+Add `@import "tailwindcss";` to **index.css** 
