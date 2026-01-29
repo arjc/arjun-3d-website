@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+body {
+  @apply bg-[#0e100f] text-orange-100;
+  a {
+    @apply transition-all ease-in-out duration-100;
+  }
+}
+
+a:hover {
+  @apply text-orange-300;
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-1;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-800 rounded;
+}::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-700;
+}
