@@ -1,6 +1,6 @@
-# SETUP
+# TUTS
 
-> if you are planing to work on this; make sure to install the following dependancies...
+> I just like keeping these for future reference 
 
 ### 1. Vite: `npm create vite@latest`
 
