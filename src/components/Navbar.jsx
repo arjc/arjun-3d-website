@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='flex items-center justify-between px-10 py-5'>
             <a className='flex items-center gap-1' href='/'>
-                <img src="../../public/favicon.ico" alt="logo" className='h-6' />
+                <img src="/favicon.ico" alt="logo" className='h-6' />
                 <span>Arjun Liji</span>
             </a>
             <ul className='hidden sm:flex gap-5'>{toLinkList(navLinks)}</ul>
