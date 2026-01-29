@@ -13,15 +13,15 @@ a:hover {
 
 /* width */
 ::-webkit-scrollbar {
-  @apply w-1;
+  @apply w-[2px];
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-black;
+  @apply bg-transparent;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-800 rounded;
+  @apply bg-orange-50 rounded;
 }::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-700;
+  @apply bg-orange-300;
 }
